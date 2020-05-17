@@ -93,7 +93,7 @@ void Hotel::pedirDatos(){
             habitaciones[i] = h;
         }
     }
-    f1<<"Nombre: "<<nombre<<endl<<"Direccion: "<<direccion<<endl<<"Ciudad:"<<ciudad<<endl<<numEstrellas<<" "<<maxHabitaciones<<endl;
+    f1<<"Nombre: "<<nombre<<endl<<"Direccion: "<<direccion<<endl<<"Ciudad:"<<ciudad<<endl<<"Numero de estrellas: "<<numEstrellas<<endl<<"Habitaciones: "<<maxHabitaciones<<endl<<endl;
 
 }
 void Hotel::mostrarHotel(){
