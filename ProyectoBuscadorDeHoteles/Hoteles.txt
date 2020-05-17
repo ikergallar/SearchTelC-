@@ -1,2 +1,12 @@
-Putos ninis
-perdo simon
+Nombre: Melia
+Direccion: Abando
+Ciudad:Bilbao
+Numero de estrellas: 5
+Habitaciones: 250
+
+Nombre: Carlton
+Direccion: Moyua
+Ciudad:Bilbao
+Numero de estrellas: 4
+Habitaciones: 150
+

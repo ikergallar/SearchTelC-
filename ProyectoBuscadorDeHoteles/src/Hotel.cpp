@@ -104,6 +104,7 @@ void Hotel::mostrarHotel(){
     cout<<"NUM HABITACIONES: "<<numHabitaciones<<endl;
     cout<<"INFORMACIÓN DE LAS HABITACIONES..."<<endl;
     mostrarHabitaciones();
+
 }
 Hotel::~Hotel()
 {
