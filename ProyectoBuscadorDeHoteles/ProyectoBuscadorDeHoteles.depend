@@ -57,3 +57,33 @@
 	"Buscador.h"
 	"Habitacion.h"
 
+1589640927 source:c:\users\ikerg\documents\github\searchtelc-\proyectobuscadordehoteles\src\buscador.cpp
+	"Buscador.h"
+	<string.h>
+	<iostream>
+
+1589640840 c:\users\ikerg\documents\github\searchtelc-\proyectobuscadordehoteles\include\buscador.h
+	"Hotel.h"
+
+1589639524 c:\users\ikerg\documents\github\searchtelc-\proyectobuscadordehoteles\include\hotel.h
+	"Habitacion.h"
+
+1589639612 c:\users\ikerg\documents\github\searchtelc-\proyectobuscadordehoteles\include\habitacion.h
+
+1589640167 source:c:\users\ikerg\documents\github\searchtelc-\proyectobuscadordehoteles\src\habitacion.cpp
+	"Habitacion.h"
+	<string.h>
+	<iostream>
+
+1589731562 source:c:\users\ikerg\documents\github\searchtelc-\proyectobuscadordehoteles\src\hotel.cpp
+	"Hotel.h"
+	"Habitacion.h"
+	<string.h>
+	<iostream>
+	<fstream>
+
+1589731453 source:c:\users\ikerg\documents\github\searchtelc-\proyectobuscadordehoteles\main.cpp
+	<iostream>
+	"Buscador.h"
+	"Habitacion.h"
+

@@ -2,6 +2,7 @@
 #include "Habitacion.h"
 #include <string.h>
 #include <iostream>
+#include <fstream>
 using namespace std;
 
 Hotel::Hotel(){
@@ -74,6 +75,8 @@ int Hotel::buscarHabitacion(int numH){
 
 void Hotel::pedirDatos(){
 
+    ofstream f1;
+    f1.open("Hoteles.txt",ios::app);
     cout<<"Introduce el nombre: "; cin>>nombre;
     cout<<"Introduce la direccion: "; cin>>direccion;
     cout<<"Introduce la ciudad: "; cin>>ciudad;
@@ -90,6 +93,7 @@ void Hotel::pedirDatos(){
             habitaciones[i] = h;
         }
     }
+    f1<<nombre<<" "<<direccion<<endl;
 
 }
 void Hotel::mostrarHotel(){
