@@ -37,10 +37,12 @@
 		<Unit filename="include/Buscador.h" />
 		<Unit filename="include/Habitacion.h" />
 		<Unit filename="include/Hotel.h" />
+		<Unit filename="include/login.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Buscador.cpp" />
 		<Unit filename="src/Habitacion.cpp" />
 		<Unit filename="src/Hotel.cpp" />
+		<Unit filename="src/login.cpp" />
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>

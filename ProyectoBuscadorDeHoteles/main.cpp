@@ -1,6 +1,7 @@
 #include <iostream>
 #include "Buscador.h"
 #include "Habitacion.h"
+#include <login.h>
 /*
     Que al salir del menú se vuelquen todos los datos aun fichero binario Buscador.dat
     Que al empezar el programa, si el fichero Buscador.dat existe, se carguen los datos del fichero en el buscador
@@ -28,8 +29,10 @@ int main()
     char opcion;
     char nombre[20],ciudad[20];
     Hotel *h;
+    login *l;
 
     Buscador buscador(100);
+    l->iniciarSesion();
     do{
         opcion =  menu();
         switch(opcion){
