@@ -10,7 +10,7 @@ Hotel::Hotel(){
     ciudad = new char[20];
     direccion = new char[40];
     maxHabitaciones = 0;
-    numHabitaciones = 0;
+    numHabitaciones = 1;
 }
 Hotel::Hotel(char *n, char *d, char *c, int numE, int maxH)
 {
