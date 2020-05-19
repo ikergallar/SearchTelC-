@@ -7,6 +7,7 @@ class login
     char *nombre;
     char *pass;
     public:
+        login();
         login(char *n,char *p);
         void iniciarSesion();
         virtual ~login();
