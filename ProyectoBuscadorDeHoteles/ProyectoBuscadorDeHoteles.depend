@@ -75,17 +75,18 @@
 	<string.h>
 	<iostream>
 
-1589731562 source:c:\users\ikerg\documents\github\searchtelc-\proyectobuscadordehoteles\src\hotel.cpp
+1589735592 source:c:\users\ikerg\documents\github\searchtelc-\proyectobuscadordehoteles\src\hotel.cpp
 	"Hotel.h"
 	"Habitacion.h"
 	<string.h>
 	<iostream>
 	<fstream>
 
-1589731453 source:c:\users\ikerg\documents\github\searchtelc-\proyectobuscadordehoteles\main.cpp
+1589882108 source:c:\users\ikerg\documents\github\searchtelc-\proyectobuscadordehoteles\main.cpp
 	<iostream>
 	"Buscador.h"
 	"Habitacion.h"
+	<login.h>
 
 1589880510 source:c:\users\alegr\documents\github\searchtelc-\proyectobuscadordehoteles\main.cpp
 	<iostream>
@@ -119,4 +120,14 @@
 	<fstream>
 
 1589880725 c:\users\alegr\documents\github\searchtelc-\proyectobuscadordehoteles\include\login.h
+
+1589881139 c:\users\ikerg\documents\github\searchtelc-\proyectobuscadordehoteles\include\login.h
+
+1589882140 source:c:\users\ikerg\documents\github\searchtelc-\proyectobuscadordehoteles\src\login.cpp
+	"login.h"
+	<iostream>
+	<string>
+	<cstdlib>
+	<conio.h>
+	<vector>
 
