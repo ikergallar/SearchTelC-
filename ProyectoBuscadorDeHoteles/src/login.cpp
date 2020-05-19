@@ -15,6 +15,7 @@ login::login(char *n,char *p){
     strcpy(nombre,n);
     pass = new char[strlen(n)+1];
     strcpy(pass,p);
+
 }
 
 
