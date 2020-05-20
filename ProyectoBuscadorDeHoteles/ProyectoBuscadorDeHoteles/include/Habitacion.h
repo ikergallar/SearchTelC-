@@ -11,6 +11,7 @@ class Habitacion
     public:
         Habitacion();
         Habitacion(int nunH, char *t, float p);
+        Habitacion(int nunH, char *t, float p,int ocupada);
         int getNumH() const;
         char * getTipo() const;
         float getPrecio() const;

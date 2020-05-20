@@ -14,7 +14,7 @@ class Buscador
         void addHotel(Hotel *h);
         void revomeHotel(int pos);
         void mostrarHoteles();
-        Hotel *getHotel(int pos);
+        Hotel *getHotel(int pos) const;
         int buscarHotel(char *nom, char *ciu);
         virtual ~Buscador();
 

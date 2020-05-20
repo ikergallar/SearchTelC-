@@ -17,6 +17,9 @@ class Hotel
         char *getNombre() const;
         char *getDireccion() const;
         char *getCiudad() const;
+        int getNumEstrellas() const;
+        int getNumHabitaciones() const;
+        int getMaxHabitaciones() const;
         void pedirDatos();
         Habitacion * getHabitacion(int pos) const;
         int buscarHabitacion(int numH);

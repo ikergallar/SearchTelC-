@@ -1,32 +1,36 @@
 # depslib dependency file v1.0
-1589640167 source:c:\users\maria\onedrive\documentos\codeblocks\proyectobuscadordehoteles (1)\proyectobuscadordehoteles\src\habitacion.cpp
+1589897033 source:c:\users\maria\onedrive\documentos\codeblocks\proyectobuscadordehoteles (1)\proyectobuscadordehoteles\src\habitacion.cpp
 	"Habitacion.h"
 	<string.h>
 	<iostream>
 
-1589639612 c:\users\maria\onedrive\documentos\codeblocks\proyectobuscadordehoteles (1)\proyectobuscadordehoteles\include\habitacion.h
+1589897033 c:\users\maria\onedrive\documentos\codeblocks\proyectobuscadordehoteles (1)\proyectobuscadordehoteles\include\habitacion.h
 
-1589640908 source:c:\users\maria\onedrive\documentos\codeblocks\proyectobuscadordehoteles (1)\proyectobuscadordehoteles\main.cpp
+1589899144 source:c:\users\maria\onedrive\documentos\codeblocks\proyectobuscadordehoteles (1)\proyectobuscadordehoteles\main.cpp
 	<iostream>
 	"Buscador.h"
 	"Habitacion.h"
+	"login.h"
+	"Hotel.h"
+	<fstream>
 
-1589640840 c:\users\maria\onedrive\documentos\codeblocks\proyectobuscadordehoteles (1)\proyectobuscadordehoteles\include\buscador.h
+1589897180 c:\users\maria\onedrive\documentos\codeblocks\proyectobuscadordehoteles (1)\proyectobuscadordehoteles\include\buscador.h
 	"Hotel.h"
 
-1589639524 c:\users\maria\onedrive\documentos\codeblocks\proyectobuscadordehoteles (1)\proyectobuscadordehoteles\include\hotel.h
+1589896191 c:\users\maria\onedrive\documentos\codeblocks\proyectobuscadordehoteles (1)\proyectobuscadordehoteles\include\hotel.h
 	"Habitacion.h"
 
-1589640520 source:c:\users\maria\onedrive\documentos\codeblocks\proyectobuscadordehoteles (1)\proyectobuscadordehoteles\src\buscador.cpp
+1589897180 source:c:\users\maria\onedrive\documentos\codeblocks\proyectobuscadordehoteles (1)\proyectobuscadordehoteles\src\buscador.cpp
 	"Buscador.h"
 	<string.h>
 	<iostream>
 
-1589640628 source:c:\users\maria\onedrive\documentos\codeblocks\proyectobuscadordehoteles (1)\proyectobuscadordehoteles\src\hotel.cpp
+1589896873 source:c:\users\maria\onedrive\documentos\codeblocks\proyectobuscadordehoteles (1)\proyectobuscadordehoteles\src\hotel.cpp
 	"Hotel.h"
 	"Habitacion.h"
 	<string.h>
 	<iostream>
+	<fstream>
 
 1589640927 source:c:\users\ikerg\downloads\proyectobuscadordehoteles (1) (3)\proyectobuscadordehoteles (1)\proyectobuscadordehoteles\src\buscador.cpp
 	"Buscador.h"
@@ -121,10 +125,11 @@
 
 1589881607 c:\users\alegr\documents\github\searchtelc-\proyectobuscadordehoteles\include\login.h
 
-1589881167 source:c:\users\alegr\documents\github\searchtelc-\proyectobuscadordehoteles\src\login.cpp
+1589884424 source:c:\users\alegr\documents\github\searchtelc-\proyectobuscadordehoteles\src\login.cpp
 	"login.h"
 	<iostream>
 	<string.h>
+	<stdio.h>
 
 1589881139 c:\users\ikerg\documents\github\searchtelc-\proyectobuscadordehoteles\include\login.h
 
@@ -135,14 +140,51 @@
 	<cstdlib>
 	<conio.h>
 	<vector>
-
-1589881139 c:\users\ikerg\documents\github\searchtelc-\proyectobuscadordehoteles\include\login.h
-
-1589882140 source:c:\users\ikerg\documents\github\searchtelc-\proyectobuscadordehoteles\src\login.cpp
 	"login.h"
 	<iostream>
 	<string>
 	<cstdlib>
 	<conio.h>
 	<vector>
+
+1589898167 source:c:\users\maria\onedrive\documentos\codeblocks\proyectobuscadordehoteles (1)\proyectobuscadordehoteles\src\login.cpp
+	"login.h"
+	<iostream>
+	<string.h>
+	<stdio.h>
+
+1589881607 c:\users\maria\onedrive\documentos\codeblocks\proyectobuscadordehoteles (1)\proyectobuscadordehoteles\include\login.h
+
+1589897180 source:c:\users\alegr\desktop\proyectobuscadordehoteles (1)\proyectobuscadordehoteles\src\buscador.cpp
+	"Buscador.h"
+	<string.h>
+	<iostream>
+
+1589897180 c:\users\alegr\desktop\proyectobuscadordehoteles (1)\proyectobuscadordehoteles\include\buscador.h
+	"Hotel.h"
+
+1589896191 c:\users\alegr\desktop\proyectobuscadordehoteles (1)\proyectobuscadordehoteles\include\hotel.h
+	"Habitacion.h"
+
+1589897033 c:\users\alegr\desktop\proyectobuscadordehoteles (1)\proyectobuscadordehoteles\include\habitacion.h
+
+1589897033 source:c:\users\alegr\desktop\proyectobuscadordehoteles (1)\proyectobuscadordehoteles\src\habitacion.cpp
+	"Habitacion.h"
+	<string.h>
+	<iostream>
+
+1589896873 source:c:\users\alegr\desktop\proyectobuscadordehoteles (1)\proyectobuscadordehoteles\src\hotel.cpp
+	"Hotel.h"
+	"Habitacion.h"
+	<string.h>
+	<iostream>
+	<fstream>
+
+1589898167 source:c:\users\alegr\desktop\proyectobuscadordehoteles (1)\proyectobuscadordehoteles\src\login.cpp
+	"login.h"
+	<iostream>
+	<string.h>
+	<stdio.h>
+
+1589881607 c:\users\alegr\desktop\proyectobuscadordehoteles (1)\proyectobuscadordehoteles\include\login.h
 

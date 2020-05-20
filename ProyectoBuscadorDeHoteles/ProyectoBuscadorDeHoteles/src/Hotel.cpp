@@ -73,10 +73,19 @@ int Hotel::buscarHabitacion(int numH){
     return pos;
 }
 
+int Hotel::getNumEstrellas() const{
+    return numEstrellas;
+}
+
+int Hotel::getNumHabitaciones() const{
+    return numHabitaciones;
+}
+int Hotel::getMaxHabitaciones() const{
+    return numHabitaciones;
+}
+
 void Hotel::pedirDatos(){
 
-    ofstream f1;
-    f1.open("Hoteles.txt",ios::app);
     cout<<"Introduce el nombre: "; cin>>nombre;
     cout<<"Introduce la direccion: "; cin>>direccion;
     cout<<"Introduce la ciudad: "; cin>>ciudad;
@@ -93,8 +102,6 @@ void Hotel::pedirDatos(){
             habitaciones[i] = h;
         }
     }
-    f1<<"Nombre: "<<nombre<<endl<<"Direccion: "<<direccion<<endl<<"Ciudad:"<<ciudad<<endl<<"Numero de estrellas: "<<numEstrellas<<endl<<"Habitaciones: "<<maxHabitaciones<<endl<<endl;
-
 }
 void Hotel::mostrarHotel(){
     cout<<"NOMBRE HOTEL: "<<nombre<<endl;

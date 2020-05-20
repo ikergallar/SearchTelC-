@@ -18,7 +18,7 @@ int Buscador::getMaxHoteles() const
     return maxHoteles;
 }
 
-Hotel* Buscador::getHotel(int pos){
+Hotel* Buscador::getHotel(int pos) const{
     return hoteles[pos];
 }
 void Buscador::addHotel(Hotel *h)

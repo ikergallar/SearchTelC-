@@ -16,6 +16,7 @@ login::login(char *n,char *p){
     pass = new char[strlen(n)+1];
     strcpy(pass,p);
 
+
 }
 
 
@@ -36,27 +37,31 @@ void login::iniciarSesion(){
         if(strcmp(pass,"admin123")==0){
             cout<<"Contraseña correcta, bienvenido"<<endl;
             system("pause>null");
-        }else if(strcmp(pass,"admin123")!=0){
+            i=4;
+        }else {
             cout << "Contrasena incorrecta, por favor ingrese un usuario y contrasena valida" << endl;
             system("pause>null");
         }
-    }else if(strcmp(nombre,"admin")!=0){
+    }else {
         cout<<"Nombre de usuario incorrecto, por favor, intentelo de nuevo"<<endl;
         system("pause>null");
     }
 
-    if(i > 0){
-        cout << endl;
-        cout << "Ha realizado " << i << "/3 intentos" << endl;
-        cout << endl;
-        system("pause>null");
+    if(i!=4){
+        if(i > 0){
+            cout << endl;
+            cout << "Ha realizado " << i << "/3 intentos" << endl;
+            cout << endl;
+            system("pause>null");
+        }
+        else if(i == 3){
+            cout << endl;
+            cout << "Ha realizado 3 intentos, por seguridad el programa se cerrara..." << endl;
+            system("pause>null");
+            exit(0);
+        }
     }
-    if(i == 3){
-        cout << endl;
-        cout << "Ha realizado 3 intentos, por seguridad el programa se cerrara..." << endl;
-        system("pause>null");
-        exit(0);
-    }
+
  }
 
 }

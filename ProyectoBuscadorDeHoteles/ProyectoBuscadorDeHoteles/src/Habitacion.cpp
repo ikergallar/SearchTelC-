@@ -14,6 +14,15 @@ Habitacion::Habitacion(int numH, char *t, float p)
     numHabitacion = numH;
 }
 
+Habitacion::Habitacion(int numH, char *t, float p, int o)
+{
+    tipo = new char[strlen(t)+1];
+    strcpy(tipo,t);
+    precio = p;
+    ocupada = o;
+    numHabitacion = numH;
+}
+
 int Habitacion::getNumH() const{
     return numHabitacion;
 }
